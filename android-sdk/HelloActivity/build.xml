@@ -82,6 +82,7 @@
     <!-- version-tag: 1 -->
     <import file="${sdk.dir}/tools/ant/build.xml" />
 
+    <import file="mac-shim.xml" />
     <import file="build-scala.xml" />
 
     <target name="-post-compile" depends="-post-compile-scala" />
